@@ -1,0 +1,36 @@
+<config>
+
+	<OPTIONS
+		title="FotoMaps 2.0"
+		menuBar="true"
+		toolTips="true"
+		zoomSlider="true"
+		music="feature available only in FotoMaps Pro"
+		logo="feature available only in FotoMaps Pro"
+		logoLink="feature available only in FotoMaps Pro"
+		email="you@yourdomain.com"
+		frameThickness="15"
+		noCache="false"
+	/>
+
+	<MAP
+		map="maps/map-world.swf"
+		bgColor="b7d0e6"
+		mapColor="ebf3f9"
+		zoom="0"
+	/>
+
+	<ABOUT startOpen="false" heading="Welcome to FotoMaps">
+	<![CDATA[
+
+Write something here about yourself or your photos.
+You can type anything you want here. There is no limit on length. A scrollbar will appear if necessary.
+White space and line breaks will be removed from your text. You can format it with basic HTML tags.<br><br>
+<a href='http://www.fotomaps.net' target='_blank'>You can have links!</a>
+You may also use <b>bold text</b> and <i>italic text</i><br><br>
+See the user manual for instructions about including basic HTML tags in this text
+	
+	]]>
+	</ABOUT>
+
+</config>

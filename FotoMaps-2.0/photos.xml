@@ -1,0 +1,13 @@
+<fotomaps> 
+	  
+      <photo name="image1" path="photos/image1.jpg" width="375" height="500" level="2" xPos="150" yPos="-130" caption="Image 1 caption" info="Image 1 extra info line" link="feature available only in FotoMaps Pro" /> 
+      <photo name="image2" path="photos/image2.jpg" width="600" height="450" level="1" xPos="10" yPos="-180" caption="Image 2 caption" info="Image 2 extra info line" link="feature available only in FotoMaps Pro" /> 
+      <photo name="image3" path="photos/image3.jpg" width="375" height="500" level="1" xPos="30" yPos="-50" caption="Image 3 caption" info="Image 3 extra info line" link="feature available only in FotoMaps Pro" /> 
+
+      <group slideshow="true" name="group1" level="2" xPos="-140" yPos="-100">
+          <photo path="photos/image4.jpg" width="600" height="450" caption="Image 4 caption" info="Image 4 extra info line" link="feature available only in FotoMaps Pro" /> 
+          <photo path="photos/image5.jpg" width="600" height="450" caption="Image 5 caption" info="Image 5 extra info line" link="feature available only in FotoMaps Pro" /> 
+          <photo path="photos/image6.jpg" width="375" height="500" caption="Image 6 caption" info="Image 6 extra info line" link="feature available only in FotoMaps Pro" /> 
+      </group>
+	  
+</fotomaps>
