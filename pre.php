@@ -98,7 +98,7 @@ function test_input($data) {
 <fieldset style="width:90%; margin:auto" >
 
 <p>
-		<label>Year of Rebuild <span class="error">*</span></label>
+		<label>Year of Establishment <span class="error">*</span></label>
 		<input type="text" name="year1" />
 		<span class="error"><?php echo $year_Err;?></span>
 </p>
