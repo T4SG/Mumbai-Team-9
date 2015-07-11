@@ -1,6 +1,6 @@
 table name : School Pre details
 Attribute   Variable name
-Year        year
+Year        year #############################type is int
 Total boys  tboy
 Toatl girls tgirl
 Unaid/aid   aid(boolean)
@@ -14,7 +14,7 @@ Teacher         teach    //newly added.
 
 table name : School Post Details
 Attribute   Variable name
-Year        year
+Year        year        #############################type is int
 Total boys  tboy
 Toatl girls tgirl
 Unaid/aid   aid(boolean)
