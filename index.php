@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> testing
 <?php
 $school_name = $location = $country = $contact_person = $contact = $username = $password = $gov_private = $email = "";
 $school_name_Err = $location_Err = $country_Err = $contact_person_Err = $contact_Err = $username_Err = $password_Err = $gov_private_Err = $email_Err = "";
@@ -123,8 +120,8 @@ function test_input($data) {
 
     margin-top:0px;
   }
-<<<<<<< HEAD
-=======
+
+
 .error {color: #FF0000;}
 .navbar-fixed-top{
 
@@ -132,16 +129,14 @@ function test_input($data) {
 .brandImage{
   top: -10px;
 }
->>>>>>> testing
+
   #home{
     width: 100%;
     height:644px;
     padding-top:50px;
-<<<<<<< HEAD
-    
-=======
+
     background-image: url("test2.jpg");
->>>>>>> testing
+
   }
   .navbar {
   position: relative;
@@ -182,12 +177,11 @@ function test_input($data) {
     padding-top:50px;
   }
   </style>
-<<<<<<< HEAD
+
   <style>
 .error {color: #FF0000;}
 </style>
-=======
->>>>>>> testing
+
   <script  src="js/myscript.js"></script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
@@ -347,8 +341,7 @@ function test_input($data) {
     </div>
   </section>				
 </body>
-<<<<<<< HEAD
+
 </html>
-=======
-</html>
->>>>>>> testing
+
+
