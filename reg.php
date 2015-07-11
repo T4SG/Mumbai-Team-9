@@ -187,6 +187,7 @@ function test_input($data) {
 <input type="submit" name="reg_submit" value="Submit">
 </center>
 </fieldset>
+</form>
 </body>
 </html>
 
