@@ -129,6 +129,13 @@ function test_input($data) {
 .brandImage{
   top: -10px;
 }
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
 
   #home{
     width: 100%;
