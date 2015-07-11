@@ -6,12 +6,32 @@
 	<script type="text/javascript" src="js/bootcards.js"></script>
 	<style type="text/css" link="bootstrap.css"></style>
 	<style type="text/css" link="bootcards.css"> </style>
+	<style type="text/css">
+		.hidden
+		{
+			display: block;
+			height:300px;
+			width:300px;
+			background-color: black;
+
+		}
+		#pop-up {
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 90%;
+}
+	</style>
 	<script type="text/javascript">
 
 $(document).ready(function() {
 	$(function() {window.setInterval("$('img#heartIcon').toggle();",1200);});
 $('img#heartIcon').hover(function() {
-	
+	$('div#pop-up').show()
 }, function() {
 	
 });
@@ -43,6 +63,8 @@ $('img#heartIcon').hover(function() {
 	</div>
 	<div id="imageWrapper8" style="position: absolute; left: 20.6558464849354%; top: 46.6988065326633%; transform: scale(0.609126984126984);">
 		<img src="heart.jpg" class="heart8" id="heartIcon">
+	</div>
+	<div id="pop-up">
 	</div>
 </body>
 </html>
