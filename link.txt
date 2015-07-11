@@ -1,0 +1,1 @@
+http://ec2-52-74-27-3.ap-southeast-1.compute.amazonaws.com/phpmyadmin/index.php?token=84353d6c96e802ba3b33743193a5342b#PMAURL-0:index.php?db=&table=&server=1&target=&token=84353d6c96e802ba3b33743193a5342b
