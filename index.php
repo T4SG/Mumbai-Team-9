@@ -111,7 +111,7 @@ function test_input($data) {
 ?>
 <html>
 <head>
-	<title>Synapse</title>
+	<title>HappyHeartsFoundation</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
