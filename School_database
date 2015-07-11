@@ -7,6 +7,7 @@ Unaid/aid   aid(boolean)
 No of gradu grad
 total Enrolled  tenrol
 Comp_literacy   complit
+Stdcomputer literacy stdcomplit
 Class           class    //newly added.
 Teacher         teach    //newly added.
 
@@ -21,6 +22,7 @@ Unaid/aid   aid(boolean)
 No of gradu grad
 total Enrolled  tenrol
 Comp.literacy   complit
+Stdcomputer literacy stdcomplit
 Class           class       //newly added.
 Teacher         teach    //newly added.
 
