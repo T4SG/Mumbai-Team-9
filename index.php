@@ -121,6 +121,12 @@ function test_input($data) {
     margin-top:0px;
   }
 .error {color: #FF0000;}
+.navbar-fixed-top{
+
+}
+.brandImage{
+  top: -10px;
+}
   #home{
     width: 100%;
     height:644px;

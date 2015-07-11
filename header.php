@@ -8,7 +8,7 @@
 		        <span class="icon-bar"></span>
 	      </div>
 			<section id="branding" class="navbar-header">
-				<a class="navbar-brand "href="">Tsec Synapse</a><!--add logo image here -->
+				 <img src="hhf-logo.jpg" class="navbar-brand"><!--add logo image here -->
 			</section>
 			<section id="mynavbar" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav navbar-right" >
