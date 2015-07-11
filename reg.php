@@ -171,7 +171,7 @@ function test_input($data) {
 </p>
 <p>
 		<label>Government / Unaided <span class="error">*</span></label>
-		<input type="radio" name="gov_private" value="0" />Government &nbsp; &nbsp;
+		<input type="radio" name="gov_private" value="0" />Government &nbsp; &nbsp; &nbsp;
 		<input type="radio" name="gov_private" value="1" />Private
 		<span class="error"><?php echo $gov_private_Err;?></span>
 </p>
