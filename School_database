@@ -7,6 +7,7 @@ Unaid/aid   aid(boolean)
 No of gradu grad
 total Enrolled  tenrol
 Comp.literacy   complit
+Class           class      //newly added.
 
 
 
@@ -19,6 +20,7 @@ Unaid/aid   aid(boolean)
 No of gradu grad
 total Enrolled  tenrol
 Comp.literacy   complit
+Class           class       //newly added.
 
 
 Table name :Login
