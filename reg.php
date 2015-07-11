@@ -182,10 +182,7 @@ function test_input($data) {
 		<span class="error"><?php echo $email_Err;?></span>
 </p>
 
-<p>
-		<label>Upload an image </label>
-		<input type="file" name="imgfile" size="100">
-</p>
+
 <center>
 <input type="submit" name="reg_submit" value="Submit">
 </center>
