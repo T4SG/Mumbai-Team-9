@@ -6,39 +6,43 @@
 	<script type="text/javascript" src="js/bootcards.js"></script>
 	<style type="text/css" link="bootstrap.css"></style>
 	<style type="text/css" link="bootcards.css"> </style>
-	<style type="text/css">
-	.heart1
-	{
-		top: -20px;
-		left: -20px;
-	}
-	</style>
+	<script type="text/javascript">
+
+$(document).ready(function() {
+	$(function() {window.setInterval("$('img#heartIcon').toggle();",1200);});
+$('img#heartIcon').hover(function() {
+	
+}, function() {
+	
+});
+});
+	</script>
 </head>
 <body>
 	<img src="map.png" class="img-responsive" />
 	<div id="imageWrapper1" style="position: absolute; left: 26.4614762931035%; top: 61.4041526845638%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart1">
+		<img src="heart.jpg" class="heart1" id="heartIcon">
 	</div>
 	<div id="imageWrapper2" style="position: absolute; left: 22.2800394548063%; top: 39.1278266331658%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart2">
+		<img src="heart.jpg" class="heart2" id="heartIcon">
 	</div>
 	<div id="imageWrapper3" style="position: absolute; left: 29.4614762931035%; top: 62.4041526845638%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart3">
+		<img src="heart.jpg" class="heart3" id="heartIcon">
 	</div>
 	<div id="imageWrapper4" style="position: absolute; left: 31.4938487787356%; top: 83.4428481543624%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart4">
+		<img src="heart.jpg" class="heart4" id="heartIcon">
 	</div> 
 	<div id="imageWrapper5" style="position: absolute; left: 90.2638091822095%; top: 66.1027010050251%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart5">
+		<img src="heart.jpg" class="heart5" id="heartIcon">
 	</div>
 	<div id="imageWrapper6" style="position: absolute; left: 87.1218167144907%; top: 56.4098618090452%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart6">
+		<img src="heart.jpg" class="heart6" id="heartIcon">
 	</div>
 	<div id="imageWrapper7" style="position: absolute; left: 29.1729974856322%; top: 73.6419882550336%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart7">
+		<img src="heart.jpg" class="heart7" id="heartIcon">
 	</div>
 	<div id="imageWrapper8" style="position: absolute; left: 20.6558464849354%; top: 46.6988065326633%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart8">
+		<img src="heart.jpg" class="heart8" id="heartIcon">
 	</div>
 </body>
 </html>
