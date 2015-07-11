@@ -1,44 +1,44 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>PhotogridView</title>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/bootcards.js"></script>
-	<style type="text/css" link="bootstrap.css"></style>
-	<style type="text/css" link="bootcards.css"> </style>
-	<style type="text/css">
-	.heart1
-	{
-		top: -20px;
-		left: -20px;
-	}
-	</style>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
 </head>
 <body>
-	<img src="map.png" class="img-responsive" />
-	<!--<div id="imageWrapper1" style="position: absolute; left: 26.4614762931035%; top: 61.4041526845638%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart1">
-	</div>-->
-	<div id="imageWrapper2" style="position: absolute; left: 22.2800394548063%; top: 43.1278266331658%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart2">
-	</div>
-	<div id="imageWrapper3" style="position: absolute; left: 29.4614762931035%; top: 66.4041526845638%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart3">
-	</div>
-	<div id="imageWrapper4" style="position: absolute; left: 31.4938487787356%; top: 87.4428481543624%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart4">
-	</div> 
-	<div id="imageWrapper5" style="position: absolute; left: 90.2638091822095%; top: 71.1027010050251%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart5">
-	</div>
-	<div id="imageWrapper6" style="position: absolute; left: 87.1218167144907%; top: 60.4098618090452%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart6">
-	</div>
-	<div id="imageWrapper7" style="position: absolute; left: 29.1729974856322%; top: 78.6419882550336%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart7">
-	</div>
-	<div id="imageWrapper8" style="position: absolute; left: 20.6558464849354%; top: 50.6988065326633%; transform: scale(0.609126984126984);">
-		<img src="heart.jpg" class="heart8">
-	</div>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div></div>
+
 </body>
 </html>
