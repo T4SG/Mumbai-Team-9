@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>FotoMaps Version 2</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+			background: #ffffff;
+			font-family: arial;
+			overflow: hidden;
+		}
+		#container {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+		}
+		#content p {
+			padding: 50px;
+		}
+	</style>
+	<script type="text/javascript" src="scripts/swfobject.js"></script>
+	<script type="text/javascript" src="scripts/swfaddress.js"></script>
+	<script type="text/javascript">
+   		swfobject.embedSWF("fotomaps.swf", "content", "100%", "100%", "8.0.0", "", {}, {}, {id: "content"});
+    </script>
+</head>
+<body>
+	<div id="container">
+		<div id="content">
+			<p>This <a href="http://www.fotomaps.net">FotoMap</a> requires the Flash 8+ player and Javascript support. <a href="http://www.macromedia.com/go/getflash/">Get Flash</a>.</p>
+		</div>
+	</div>
+</body>
+</html>
