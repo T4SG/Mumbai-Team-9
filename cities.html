@@ -1,0 +1,136 @@
+<html>
+<head>
+	<title>PhotogridView</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootcards.js"></script>
+	<style type="text/css" link="bootstrap.css"></style>
+	<style type="text/css" link="bootcards.css"> </style>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+	
+<script type="text/javascript">
+$document.ready(function() {
+  $("img#mexico").mouseover(function() {
+  alert("hello..");
+    load1();
+  });
+});
+
+function load1(){
+$('#mexico_gallary').fadeIn("slow");
+$('#flip-container').css({
+"opacity":"1"; "display":"block";
+});
+
+
+</script>
+
+	<style type="text/css">
+	.heart1
+	{
+		top: -20px;
+		left: -20px;
+	}
+	
+	/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+	
+	
+	</style>
+	
+
+	
+	
+	
+</head>
+<body>
+	<img src="map.png" class="img-responsive" />
+	<!--<div id="imageWrapper1" style="position: absolute; left: 26.4614762931035%; top: 61.4041526845638%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="heart1">
+	</div>-->
+	<div id="imageWrapper2" style="position: absolute; left: 22.2800394548063%; top: 43.1278266331658%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" id="USA" title="USA" onclick="ShowImage('mexico_gallary')">
+	</div>
+		
+	</div>
+	<div id="imageWrapper3" style="position: absolute; left: 29.4614762931035%; top: 66.4041526845638%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="columbia" title="Columbia">
+	</div>
+	<div id="imageWrapper4" style="position: absolute; left: 31.4938487787356%; top: 91.4428481543624%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="chile" title="Chile">
+	</div> 
+	<div id="imageWrapper5" style="position: absolute; left: 90.2638091822095%; top: 72.1027010050251%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="indonesia" title="Indonesia">
+	</div>
+	<div id="imageWrapper6" style="position: absolute; left: 86.1218167144907%; top: 58.4098618090452%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="thailand" title="Thailand">
+	</div>
+	<div id="imageWrapper7" style="position: absolute; left: 29.1729974856322%; top: 78.6419882550336%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" class="peru" title="peru">
+	</div>
+	<div id="imageWrapper8" style="position: absolute; left: 20.6558464849354%; top: 50.6988065326633%; transform: scale(0.609126984126984);">
+		<img src="heart.jpg" id="mexico" title="Mexico">
+	</div>
+	
+	<div id="mexico_gallary" style="display:none;position:absolute;left:50%;top:50%;">
+	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<img src="front.jpg">
+		</div>
+		<div class="back">
+		
+		<img src="back.jpg">
+			<!-- back content -->
+		</div>
+	</div>
+	</div>
+	
+
+
+	
+	
+	
+</body>
+</html>
