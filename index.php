@@ -142,7 +142,7 @@ function test_input($data) {
     height:644px;
     padding-top:50px;
 
-    background-image: url("test2.jpg");
+    
 
   }
   .navbar {
@@ -225,15 +225,20 @@ function test_input($data) {
        
         <div id="home">
           <section class="home-main">
-            <header>
-              <a href="">Home</a>
-            </header>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
+ 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="happyHearts.jpg" alt="...">
+    </div>
+    </div>
+  </div>
+ 
+  <!-- Controls -->
+</div> <!-- Carousel -->
           </section>
         </div>
         <div id="register">
