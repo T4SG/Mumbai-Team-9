@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/popup.css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+		<script type="text/javascript">
+			function pop(div) {
+				document.getElementById(div).style.display = 'block';
+			}
+			function hide(div) {
+				document.getElementById(div).style.display = 'none';
+			}
+			//To detect escape button
+			document.onkeydown = function(evt) {
+				evt = evt || window.event;
+				if (evt.keyCode == 27) {
+					hide('wrapper');
+				}
+			};
+		</script>
+
+
+
+</head>
+
+<body>
+
+			 	 <div class="content"></div>
+<div id="wrapper" style="display: block;
+				position: absolute;				
+				opacity: 1;
+				filter: alpha(opacity = 50);top: 40%;
+				left: 50%;
+				margin-top: -100px;
+				margin-left: -150px;">
+
+
+
+
+	<form name="login-form" class="login-form" action="login2.php" method="post">
+	
+		<div class="header" >
+<center>
+<h1 style="color:#ffffff;margin-top:-10px;">Press ESC to Exit<br>
+		Admin Login</center></h1>
+		
+		</div>
+	
+		<div class="content" >
+		<input name="username" type="text" class="input username" placeholder="Username" name="un" autofocus />
+		<div class="user-icon"></div>
+		<input name="password" type="password" class="input password" name="pass" placeholder="Password" />
+		<div class="pass-icon"></div>		
+		</div>
+
+		<div class="footer" >
+		<div style="margin-left:40px;margin-right:40px;">
+	<span>	<input type="submit" name="submit" value="Login" class="button"style="color:#ffffff;align:center;" />
+
+	</span>
+		</div></div>
+
+
+	
+	</form>
+
+</div>
+</body>
+</html>
