@@ -1,0 +1,36 @@
+#mask{
+    z-index: 500;
+    position: fixed;
+    display: none; /* removes the element completely from the document, it doesn't take up any space. */
+    /* visibility: hidden; -- hides the element, but it still takes up space in the layout. */
+    background: transparent;
+    background-color: #ccc;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+}
+
+#pop {
+   z-index:2;
+   position:absolute;
+   border: 1px solid #333333;
+   text-align:center;
+   background:#ffffff;
+}
+
+#close {
+   float:right;
+   margin-right:5px;
+   cursor:pointer;
+   font:Verdana, Arial, Helvetica, sans-serif;
+   font-size:12px;
+   font-weight:bold;
+   color:#FFFFFF;
+   background-color:#666666;
+   width:12px;
+   position:relative;
+   margin-top:-1px;
+   text-align:center;
+}
