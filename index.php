@@ -309,15 +309,35 @@ function test_input($data) {
         </div>
         <div id="contact">
           <section class="contact">
-            <header>
-              <a href="">contact</a>
-            </header>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            
+            
+           <aside style="float:left">
+              <a class="twitter-timeline" href="https://twitter.com/search?q=%40HappyHeartsFund" data-widget-id="620106178526347264">Tweets about @HappyHeartsFund</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           </aside>
+           <div id="fb" style="float:right";>
+            <section class="main row">
+             <a href=" https://api.import.io/store/data/0afb46e0-e535-47ae-8ca6-5e780765baae/_query?input/webpage/url=http%3A%2F%2Fhappyheartsfund.org%2F&_user=4f23d6e8-1c82-4d04-b8fd-a1e6d14ab25b&_apikey="></a>
+            </section>
+      <section class="facebook-notifications ">
+        <div class="fbn panel panel-default bootcards-media">
+          <div class="fbnbody panel-body">
+              <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  <div class="fb-page" data-href="https://www.facebook.com/happyheartsfund" data-height="600" data-width="229px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/tsec.synapse"><a href="https://www.facebook.com/tsec.synapse">TSEC Synapse</a></blockquote></div></div>
+          </div>
+       </div>
+      </section>
+    </div>
+  </section>
+  </aside>
           </section>
 
         </div>
