@@ -7,7 +7,6 @@
 	<script type="text/javascript" src="js/bootcards-demo-app.js"></script>
 	<style type="text/css" link="css/bootcards-demo-app.css"></style>
 	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="bootcards.js"></script>
 	<script>var isDesktop = true;</script>
 </head>
 <body>
@@ -29,38 +28,38 @@
       </button>
       <!-- menu button to show/ hide the off canvas slider -->
       <button type="button" class="btn btn-default btn-menu pull-left offCanvasToggle" data-toggle="offcanvas">
-        <i class="fa fa-lg fa-bars"></i><span>Menu</span>s
+        <i class="fa fa-lg fa-bars"></i><span>Menu</span>
       </button>    
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li>
             <a href="/dashboard" data-pjax="#main" data-title="Customers" <i="" class="fa fa-dashboard">
-              Dashboard
+         //     Dashboard
             </a>          
           </li>
           <li>
             <a href="/companies" data-pjax="#main" data-title="Companies" <i="" class="fa fa-building-o">
-              Companies
+          //    Companies
             </a>          
           </li>
           <li>
             <a href="/contacts" data-pjax="#main" data-title="Contacts" <i="" class="fa fa-users">
-              Contacts
+          //    Contacts
             </a>          
           </li>
           <li>
             <a href="/notes" data-pjax="#main" data-title="Notes" <i="" class="fa fa-clipboard">
-              Notes
+           //   Notes
             </a>          
           </li>
           <li class="active">
             <a href="/charts" data-pjax="#main" data-title="Charts" <i="" class="fa fa-bar-chart-o">
-              Charts
+           //   Charts
             </a>          
           </li>
           <li>
             <a href="/settings" data-pjax="#main" data-title="Settings" <i="" class="fa fa-gears">
-              Settings
+           //   Settings
             </a>          
           </li>
         </ul>
@@ -74,37 +73,37 @@
       <li>
         <a href="/dashboard" data-pjax="#main" data-title="Customers">
           <i class="fa fa-lg fa-dashboard"></i>
-          Dashboard
+        //  Dashboard 
         </a>          
       </li>
       <li>
         <a href="/companies" data-pjax="#main" data-title="Companies">
           <i class="fa fa-lg fa-building-o"></i>
-          Companies
+        //  Companies
         </a>          
       </li>
       <li>
         <a href="/contacts" data-pjax="#main" data-title="Contacts">
           <i class="fa fa-lg fa-users"></i>
-          Contacts
+        //  Contacts
         </a>          
       </li>
       <li>
         <a href="/notes" data-pjax="#main" data-title="Notes">
           <i class="fa fa-lg fa-clipboard"></i>
-          Notes
+       //   Notes
         </a>          
       </li>
       <li class="active">
         <a href="/charts" data-pjax="#main" data-title="Charts">
           <i class="fa fa-lg fa-bar-chart-o"></i>
-          Charts
+        //  Charts
         </a>          
       </li>
       <li>
         <a href="/settings" data-pjax="#main" data-title="Settings">
           <i class="fa fa-lg fa-gears"></i>
-          Settings
+        //  Settings
         </a>          
       </li>
     </ul>
@@ -150,22 +149,22 @@
 				</div>		
 			
 				<!-- Table Card data -->
-				<div class="panel panel-default bootcards-table" style="">
+				<div class="panel panel-default bootcards-table" style="display:none">
 					<div class="panel-heading">
-						<h3 class="panel-title">Closed sales by team member - $00s (December)</h3>							
+						<h3 class="panel-title">Closed sales by team member - $000s (December)</h3>							
 					</div>	
 					<table class="table table-hover">
 						<thead>				
 							<tr class="active"><th>Name</th><th class="text-right">Sales value</th></tr>
 						</thead>
 						<tbody>
-							<tr><td>Guy Bardsley</td><td class="text-right">$50</td></tr>
-							<tr><td>Adam Callahan</td><td class="text-right">$ 1,500</td></tr>
-							<tr><td>tanveer annand</td><td class="text-right">$ 3,750</td></tr>
+							<tr><td>Number of boys</td><td class="text-right">$ 15</td></tr>
+							<tr><td>Number of girls</td><td class="text-right">$ 20</td></tr>
+					<!--	    <tr><td>Arlo Geist</td><td class="text-right">$ 3,750</td></tr>
 							<tr><td>Sheila Hutchins</td><td class="text-right">$ 3,500</td></tr>
 							<tr><td>Jeanette Quijano</td><td class="text-right">$ 1,250</td></tr>
 							<tr><td>Simon Sweet</td><td class="text-right">$ 5,250</td></tr>
-							<tr><td><strong>Total</strong></td><td class="text-right"><strong>$ 15,800</strong></td></tr>
+					-->		<tr><td><strong>Total</strong></td><td class="text-right"><strong>$ 35</strong></td></tr>
 						</tbody>
 					</table>
 					<div class="panel-footer">
