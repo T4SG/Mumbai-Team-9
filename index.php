@@ -251,59 +251,58 @@ function test_input($data) {
 <fieldset style="width:90%; margin:auto" >
 
 <p>
-    <label>Name of the school <span class="error">*</span></label>
-    <input type="text" name="school_name" />
-    <span class="error"><?php echo $school_name_Err;?></span>
+		<label>Name of the school <span class="error">*</span></label>
+		<input type="text" name="school_name" />
+		<span class="error"><?php echo $school_name_Err;?></span>
 </p>
 <p>
-    <label>Location <span class="error">*</span></label>
-    <input type="text" name="location" />
-    <span class="error"><?php echo $location_Err;?></span>
+		<label>Location <span class="error">*</span></label>
+		<input type="text" name="location" />
+		<span class="error"><?php echo $location_Err;?></span>
 </p>
 <p>
-    <label>Country <span class="error">*</span></label>
-    <input type="text" name="country" />
-    <span class="error"><?php echo $country_Err;?></span>
+		<label>Country <span class="error">*</span></label>
+		<input type="text" name="country" />
+		<span class="error"><?php echo $country_Err;?></span>
 </p>
 <p>
-    <label>Contact Person <span class="error">*</span></label>
-    <input type="text" name="contact_person" />
-    <span class="error"><?php echo $contact_person_Err;?></span>
+		<label>Contact Person <span class="error">*</span></label>
+		<input type="text" name="contact_person" />
+		<span class="error"><?php echo $contact_person_Err;?></span>
 </p>
 <p>
-    <label>Contact No. <span class="error">*</span></label>
-    <input type="text" name="contact" />
-    <span class="error"><?php echo $contact_Err;?></span>
+		<label>Contact No. <span class="error">*</span></label>
+		<input type="text" name="contact" />
+		<span class="error"><?php echo $contact_Err;?></span>
 </p>
 <p>
-    <label>Username <span class="error">*</span></label>
-    <input type="text" name="username" />
-    <span class="error"><?php echo $username_Err;?></span>
+		<label>Username <span class="error">*</span></label>
+		<input type="text" name="username" />
+		<span class="error"><?php echo $username_Err;?></span>
 </p>
 <p>
-    <label>Password <span class="error">*</span></label>
-    <input type="password" name="password" />
-    <span class="error"><?php echo $password_Err;?></span>
+		<label>Password <span class="error">*</span></label>
+		<input type="password" name="password" />
+		<span class="error"><?php echo $password_Err;?></span>
 </p>
 <p>
-    <label>Government / Unaided <span class="error">*</span></label>
-    <input type="radio" name="gov_private" value="0" />Government &nbsp; &nbsp; &nbsp;
-    <input type="radio" name="gov_private" value="1" />Private
-    <span class="error"><?php echo $gov_private_Err;?></span>
+		<label>Government / Unaided <span class="error">*</span></label>
+		<input type="radio" name="gov_private" value="0" />Government &nbsp; &nbsp;
+		<input type="radio" name="gov_private" value="1" />Private
+		<span class="error"><?php echo $gov_private_Err;?></span>
 </p>
 
 <p>
-    <label>Email Id <span class="error">*</span></label>
-    <input type="email" name="email" />
-    <span class="error"><?php echo $email_Err;?></span>
+		<label>Email Id <span class="error">*</span></label>
+		<input type="email" name="email" />
+		<span class="error"><?php echo $email_Err;?></span>
 </p>
 
 
 <center>
-<input type="submit" name="reg_submit" value="Submit">
+<input type="submit" name="reg_submit" value="Submit" onclick="alert("Thank You for Registering!");">
 </center>
 </fieldset>
-</form>
           </section>
 
         </div>
