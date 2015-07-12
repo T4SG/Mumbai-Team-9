@@ -6,9 +6,9 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<link rel="stylesheet" href="reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="style.css"> <!-- Resource style -->
+	<script src="modernizr.js"></script> <!-- Modernizr -->
   	
 	<title>HHF-Timeline</title>
 </head>
@@ -137,6 +137,6 @@ echo '<div style="margin-left:53%;margin-top:-40%;"><p>'.$res['postdesc'].'</p>'
 <!--		</div> <!-- cd-timeline-block -->
 <!--	</section> <!-- cd-timeline -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
