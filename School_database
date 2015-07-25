@@ -1,0 +1,55 @@
+table name : School Pre details
+Attribute   Variable name
+Year        year #############################type is int
+Total boys  tboy
+Toatl girls tgirl
+Unaid/aid   aid(boolean)
+No of gradu grad
+total Enrolled  tenrol
+Comp_literacy   complit
+Stdcomputer literacy stdcomplit
+Class           class    //newly added.
+Teacher         teach    //newly added.
+
+
+
+table name : School Post Details
+Attribute   Variable name
+Year        year        #############################type is int
+Total boys  tboy
+Toatl girls tgirl
+Unaid/aid   aid(boolean)
+No of gradu grad
+total Enrolled  tenrol
+Comp.literacy   complit
+Stdcomputer literacy stdcomplit
+Class           class       //newly added.
+Teacher         teach    //newly added.
+
+
+Table name :Login
+Attribute   Variable name
+Username    usrnm
+Passowrd    pwd
+Peference   pfenc    //not to be inserted in the form. Just used for redirection into admin or user.
+Email       email
+
+
+Table name : School Infra
+Attribute   Variable name
+elctricity electricity checkbox type
+area        sqarea      text
+playgrnd  playground      checkbox
+washrooms   washrooms       text
+water       potable_water   checkbox
+benches     benches       text
+tables      tables        text
+chairs      chairs        text
+blackboards   blackboards   text
+fans            fans        text
+no of classrooms  noclass   text
+no of computers   nocomputer  text
+library           lib    checkbox
+cafeteria         cafe  checkbox
+connectivity      cone   checkbox
+
